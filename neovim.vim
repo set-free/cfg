@@ -1,3 +1,24 @@
+#mkdir -p ~/.config/nvim/
+#touch ~/.config/nvim/init.vim
+
+# For windows
+# mkdir -p C:\Users\%USERPROFILE%\AppData\Local\nvim\
+# touch C:\Users\%USERPROFILE%\AppData\Local\nvim\init.vim
+
+# Подключение плагинов
+#sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+
+# Подключение темы
+#mkdir -p ~/.config/nvim/themes
+#touch ~/.config/nvim/themes/molokai.vim
+
+# Подключение плагинов Lua
+#mkdir -p ~/.config/nvim/lua/plugins
+#touch ~/.config/nvim/lua/plugins/init.lua
+
+
+
+
 # ~/.config/nvim/init.vim
 
 set t_Co=256 " вклюачем 256 цветов в терминале
